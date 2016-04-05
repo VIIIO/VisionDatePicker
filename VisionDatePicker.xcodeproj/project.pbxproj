@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282AD9D81CB39856006488BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AD9D71CB39856006488BA /* main.m */; };
+		282AD9DB1CB39856006488BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AD9DA1CB39856006488BA /* AppDelegate.m */; };
+		282AD9DE1CB39856006488BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AD9DD1CB39856006488BA /* ViewController.m */; };
+		282AD9E11CB39856006488BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282AD9DF1CB39856006488BA /* Main.storyboard */; };
+		282AD9E31CB39856006488BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282AD9E21CB39856006488BA /* Assets.xcassets */; };
+		282AD9E61CB39856006488BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282AD9E41CB39856006488BA /* LaunchScreen.storyboard */; };
+		282AD9F11CB39856006488BA /* VisionDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AD9F01CB39856006488BA /* VisionDatePickerUITests.m */; };
+		282ADA011CB3999F006488BA /* VisionDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AD9FF1CB3999F006488BA /* VisionDatePicker.m */; };
+		282ADA021CB3999F006488BA /* VisionPickerDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 282ADA001CB3999F006488BA /* VisionPickerDownArrow.png */; };
+		282ADA051CB39A36006488BA /* VisionDatePickerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA041CB39A36006488BA /* VisionDatePickerDemoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282AD9ED1CB39856006488BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282AD9CB1CB39856006488BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282AD9D21CB39856006488BA;
+			remoteInfo = VisionDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282AD9D31CB39856006488BA /* VisionDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282AD9D71CB39856006488BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282AD9D91CB39856006488BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282AD9DA1CB39856006488BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282AD9DC1CB39856006488BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		282AD9DD1CB39856006488BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282AD9E01CB39856006488BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282AD9E21CB39856006488BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282AD9E51CB39856006488BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		282AD9E71CB39856006488BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282AD9EC1CB39856006488BA /* VisionDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282AD9F01CB39856006488BA /* VisionDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionDatePickerUITests.m; sourceTree = "<group>"; };
+		282AD9F21CB39856006488BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282AD9FE1CB3999F006488BA /* VisionDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionDatePicker.h; sourceTree = "<group>"; };
+		282AD9FF1CB3999F006488BA /* VisionDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionDatePicker.m; sourceTree = "<group>"; };
+		282ADA001CB3999F006488BA /* VisionPickerDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VisionPickerDownArrow.png; sourceTree = "<group>"; };
+		282ADA031CB39A36006488BA /* VisionDatePickerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionDatePickerDemoController.h; sourceTree = "<group>"; };
+		282ADA041CB39A36006488BA /* VisionDatePickerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionDatePickerDemoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282AD9D01CB39856006488BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282AD9E91CB39856006488BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282AD9CA1CB39856006488BA = {
+			isa = PBXGroup;
+			children = (
+				282AD9D51CB39856006488BA /* VisionDatePicker */,
+				282AD9EF1CB39856006488BA /* VisionDatePickerUITests */,
+				282AD9D41CB39856006488BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282AD9D41CB39856006488BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282AD9D31CB39856006488BA /* VisionDatePicker.app */,
+				282AD9EC1CB39856006488BA /* VisionDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282AD9D51CB39856006488BA /* VisionDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				282AD9FC1CB398CC006488BA /* VisionDatePickerDemo */,
+				282AD9FB1CB398C5006488BA /* VisionControl */,
+				282AD9D91CB39856006488BA /* AppDelegate.h */,
+				282AD9DA1CB39856006488BA /* AppDelegate.m */,
+				282AD9DC1CB39856006488BA /* ViewController.h */,
+				282AD9DD1CB39856006488BA /* ViewController.m */,
+				282AD9DF1CB39856006488BA /* Main.storyboard */,
+				282AD9E21CB39856006488BA /* Assets.xcassets */,
+				282AD9E41CB39856006488BA /* LaunchScreen.storyboard */,
+				282AD9E71CB39856006488BA /* Info.plist */,
+				282AD9D61CB39856006488BA /* Supporting Files */,
+			);
+			path = VisionDatePicker;
+			sourceTree = "<group>";
+		};
+		282AD9D61CB39856006488BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282AD9D71CB39856006488BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282AD9EF1CB39856006488BA /* VisionDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				282AD9F01CB39856006488BA /* VisionDatePickerUITests.m */,
+				282AD9F21CB39856006488BA /* Info.plist */,
+			);
+			path = VisionDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		282AD9FB1CB398C5006488BA /* VisionControl */ = {
+			isa = PBXGroup;
+			children = (
+				282AD9FD1CB3999F006488BA /* VisionDatePicker */,
+			);
+			path = VisionControl;
+			sourceTree = "<group>";
+		};
+		282AD9FC1CB398CC006488BA /* VisionDatePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA031CB39A36006488BA /* VisionDatePickerDemoController.h */,
+				282ADA041CB39A36006488BA /* VisionDatePickerDemoController.m */,
+			);
+			path = VisionDatePickerDemo;
+			sourceTree = "<group>";
+		};
+		282AD9FD1CB3999F006488BA /* VisionDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				282AD9FE1CB3999F006488BA /* VisionDatePicker.h */,
+				282AD9FF1CB3999F006488BA /* VisionDatePicker.m */,
+				282ADA001CB3999F006488BA /* VisionPickerDownArrow.png */,
+			);
+			path = VisionDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282AD9D21CB39856006488BA /* VisionDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282AD9F51CB39856006488BA /* Build configuration list for PBXNativeTarget "VisionDatePicker" */;
+			buildPhases = (
+				282AD9CF1CB39856006488BA /* Sources */,
+				282AD9D01CB39856006488BA /* Frameworks */,
+				282AD9D11CB39856006488BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionDatePicker;
+			productName = VisionDatePicker;
+			productReference = 282AD9D31CB39856006488BA /* VisionDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282AD9EB1CB39856006488BA /* VisionDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282AD9F81CB39856006488BA /* Build configuration list for PBXNativeTarget "VisionDatePickerUITests" */;
+			buildPhases = (
+				282AD9E81CB39856006488BA /* Sources */,
+				282AD9E91CB39856006488BA /* Frameworks */,
+				282AD9EA1CB39856006488BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282AD9EE1CB39856006488BA /* PBXTargetDependency */,
+			);
+			name = VisionDatePickerUITests;
+			productName = VisionDatePickerUITests;
+			productReference = 282AD9EC1CB39856006488BA /* VisionDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282AD9CB1CB39856006488BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VIIIO;
+				TargetAttributes = {
+					282AD9D21CB39856006488BA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					282AD9EB1CB39856006488BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 282AD9D21CB39856006488BA;
+					};
+				};
+			};
+			buildConfigurationList = 282AD9CE1CB39856006488BA /* Build configuration list for PBXProject "VisionDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282AD9CA1CB39856006488BA;
+			productRefGroup = 282AD9D41CB39856006488BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282AD9D21CB39856006488BA /* VisionDatePicker */,
+				282AD9EB1CB39856006488BA /* VisionDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282AD9D11CB39856006488BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AD9E61CB39856006488BA /* LaunchScreen.storyboard in Resources */,
+				282ADA021CB3999F006488BA /* VisionPickerDownArrow.png in Resources */,
+				282AD9E31CB39856006488BA /* Assets.xcassets in Resources */,
+				282AD9E11CB39856006488BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282AD9EA1CB39856006488BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282AD9CF1CB39856006488BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AD9DE1CB39856006488BA /* ViewController.m in Sources */,
+				282ADA011CB3999F006488BA /* VisionDatePicker.m in Sources */,
+				282AD9DB1CB39856006488BA /* AppDelegate.m in Sources */,
+				282ADA051CB39A36006488BA /* VisionDatePickerDemoController.m in Sources */,
+				282AD9D81CB39856006488BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282AD9E81CB39856006488BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AD9F11CB39856006488BA /* VisionDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282AD9EE1CB39856006488BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282AD9D21CB39856006488BA /* VisionDatePicker */;
+			targetProxy = 282AD9ED1CB39856006488BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282AD9DF1CB39856006488BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282AD9E01CB39856006488BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282AD9E41CB39856006488BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282AD9E51CB39856006488BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282AD9F31CB39856006488BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282AD9F41CB39856006488BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282AD9F61CB39856006488BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisionDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		282AD9F71CB39856006488BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisionDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		282AD9F91CB39856006488BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisionDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisionDatePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		282AD9FA1CB39856006488BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisionDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisionDatePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282AD9CE1CB39856006488BA /* Build configuration list for PBXProject "VisionDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282AD9F31CB39856006488BA /* Debug */,
+				282AD9F41CB39856006488BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282AD9F51CB39856006488BA /* Build configuration list for PBXNativeTarget "VisionDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282AD9F61CB39856006488BA /* Debug */,
+				282AD9F71CB39856006488BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282AD9F81CB39856006488BA /* Build configuration list for PBXNativeTarget "VisionDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282AD9F91CB39856006488BA /* Debug */,
+				282AD9FA1CB39856006488BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282AD9CB1CB39856006488BA /* Project object */;
+}
